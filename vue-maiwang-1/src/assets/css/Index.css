@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    display: block;
+    font-size: 14px;
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.category_list  a{
+    text-decoration: none;
+}
+
+a:hover{ 
+    color: red;
+    text-decoration: none; 
+}
+
+/* a:-webkit-any-link{
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+} */
+
+
+.category{
+    margin-top: 15px !important;
+    padding:22px 0 25px 0;
+    border:1px solid  red;
+    zoom:1;
+
+}
+
+.category::after{
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    content: '.';
+}
+
+.w1200{
+width: 1200px;
+margin: 0 auto;
+}
+
+
+
+
+/* 1 */
+.category_list{
+    float: left;
+    display: block;
+    width: 120px;
+    text-align: center;
+}
+
+
+
+.category__icon{
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+    background: url(../images/i.png) no-repeat;
+    background-size: 100% auto;
+}
+
+
+.category_info{
+    font-size: 16px;
+    color: #111;
+    text-align: center;
+}
+
+/* 2 */
+
+
+.category_list{
+    float: left;
+    display: block;
+    width: 120px;
+    text-align: center;
+}
+.category_hjgj{
+    background-position: 0 -64px;
+}
+
+.category_info{
+    font-size: 16px;
+    color: #111;
+    text-align: center;
+}
+
+/* 3 */
+
+.category_list{
+    float: left;
+    display: block;
+    width: 120px;
+    text-align: center;
+}
+.category_ty{
+    background-position: 0 -120px;
+}
+
+
+.category_info{
+    font-size: 16px;
+    color: #111;
+    text-align: center;
+}
+
+
+
+
+
+/* 4 */
+
+.category_list{
+    float: left;
+    display: block;
+    width: 120px;
+    text-align: center;
+}
+.category_etqz{
+    background-position: 0 -180px;
+}
+
+
+
+.category_info{
+    font-size: 16px;
+    color: #111;
+    text-align: center;
+}
+
+
+
+
+
+
+/* 5 */
+.category_list{
+    float: left;
+    display: block;
+    width: 120px;
+    text-align: center;
+}
+.category_zlxx{
+    background-position: 0 -240px;
+}
+
+
+
+.category_info{
+    font-size: 16px;
+    color: #111;
+    text-align: center;
+}
+
+
+
+
+/* 6 */
+.category_list{
+    float: left;
+    display: block;
+    width: 120px;
+    text-align: center;
+}
+.category_yyh{
+    background-position: 0 -297px;
+}
+
+
+.category_info{
+    font-size: 16px;
+    color: #111;
+    text-align: center;
+}
+
+
+
+
+/* 7 */
+.category_list{
+    float: left;
+    display: block;
+    width: 120px;
+    text-align: center;
+}
+.category_qyzt{
+    background-position: 0 -360px;
+}
+
+
+
+.category_info{
+    font-size: 16px;
+    color: #111;
+    text-align: center;
+}
+
+
+
+
+/* 8 */
+.category_list{
+    float: left;
+    display: block;
+    width: 120px;
+    text-align: center;
+}
+.category_wdbl{
+    background-position: 0 -420px;
+}
+
+
+.category_info{
+    font-size: 16px;
+    color: #111;
+    text-align: center;
+}
+
+
+
+
+/* 9 */
+.category_list{
+    float: left;
+    display: block;
+    width: 120px;
+    text-align: center;
+}
+.category_ecy{
+    background-position: 0 -480px;
+}
+
+
+
+.category_info{
+    font-size: 16px;
+    color: #111;
+    text-align: center;
+}
+
+
+/* 10 */
+.category_list{
+    float: left;
+    display: block;
+    width: 120px;
+    text-align: center;
+}
+.category_lyzl{
+    background-position: 0 -540px;
+}
+
+
+.category_info{
+    font-size: 16px;
+    color: #111;
+    text-align: center;
+}

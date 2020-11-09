@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+img{
+    border: 0;
+}
+image{
+    
+        width: 1200px;
+        height: 320px;
+        overflow: hidden;
+}
+
+div{
+    display: block;
+    font-size: 14px;
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+#slides{
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.Lun-slides{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*slides_container*/
+
+#slides .slides_container,  #slides .tab-content, #slides .tab-pannel{
+height: 320px;
+width: 100%;
+}
+
+#slides .slides_container,#slides .tab-pannel img{
+    width: 1200px;
+    height: 320px;
+    overflow: hidden;
+} 
+
+
+
+/*prev
+#slides .prev{
+    left: 0;
+}
+
+#slides  .next{
+    right: 0;
+}
+
+#slides .next, #slides .prev {
+    position: absolute;
+    top: 50%;
+    margin-top: -32px;
+    width: 56px;
+    height: 64px;
+    display: block;
+    z-index: 101;
+    background: rgba(0,0,0,.5);
+    cursor: pointer;
+}
+
+#slides  .next   .arrow .left, #slides  .prev .arrow .left{
+    left: 24px;
+    -webkit-transform: translate(0,-50%) rotate(-135deg);
+    transform: translate(0,-50%) rotate(-135deg);
+}
+
+ #slides  .prev .arrow{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    display: inline-block;
+    content: "";
+    width: 18px;
+    height: 18px;
+    border: solid #fff;
+    border-width: 2px 2px 0 0;
+  
+    -webkit-transform: translate(0,-50%) rotate(45deg);
+    transform: translate(0,-50%) rotate(-135deg);
+
+  }
+
+
+  
+  #slides .next  .arrow{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    display: inline-block;
+    content: "";
+    width: 18px;
+    height: 18px;
+    border: solid #fff;
+    border-width: 2px 2px 0 0;
+  
+    -webkit-transform: translate(0,-50%) rotate(45deg);
+    transform: translate(0,-50%) rotate(45deg);
+  }
+
+
+  #slides   .nav{
+      position: absolute;
+      right: 32px;
+      bottom: 23px;
+  }
+
+  #slides  .nav   .dot  .current{
+      opacity: 1;
+  }
+
+  #slides .nav .dot {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #fff;
+    opacity: .32;
+}
+*/
+
+  
